@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakta SOMA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="nav-container">
+            <div class="logo"><a href="index.html">SOMA</a></div>
+            <div class="menu-toggle" id="mobile-menu-toggle">
+                <span></span><span></span><span></span>
+            </div>
+            <nav id="main-navigation">
+                <ul>
+                    <li><a href="index.html">Hem</a></li>
+                    <li><a href="produkt-1.html">Medlemskap</a></li>
+                    <li><a href="produkt-2.html">Retreats</a></li>
+                    <li><a href="nyhetsbrev.html">Nyhetsbrev</a></li>
+                    <li><a href="kontakt.html" class="active">Kontakt</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="container">
+        <h1>Kontakta Oss</h1>
+        <div class="image-placeholder" style="height: 200px;">[ Bild: Studions Reception ]</div>
+        <form id="general-contact-form" action="thank-you.html" method="GET">
+            <div class="form-group">
+                <label for="contact-name">Namn</label>
+                <input type="text" id="contact-name" name="name" required placeholder="Frida Lind">
+            </div>
+            <div class="form-group">
+                <label for="contact-email">E-postadress</label>
+                <input type="email" id="contact-email" name="email" required placeholder="frida@lind.se">
+            </div>
+            <button type="submit" class="btn btn-secondary" style="width: 100%;">Skicka Meddelande</button>
+        </form>
+    </main>
+    <footer><p>&copy; 2026 SOMA Yoga Studio.</p></footer>
+    <script src="script.js"></script>
+</body>
+</html>

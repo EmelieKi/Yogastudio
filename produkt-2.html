@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOMA Premium Retreats</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="nav-container">
+            <div class="logo"><a href="index.html">SOMA</a></div>
+            <div class="menu-toggle" id="mobile-menu-toggle">
+                <span></span><span></span><span></span>
+            </div>
+            <nav id="main-navigation">
+                <ul>
+                    <li><a href="index.html">Hem</a></li>
+                    <li><a href="produkt-1.html">Medlemskap</a></li>
+                    <li><a href="produkt-2.html" class="active">Retreats</a></li>
+                    <li><a href="nyhetsbrev.html">Nyhetsbrev</a></li>
+                    <li><a href="kontakt.html">Kontakt</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="container">
+        <h1>SOMA Luxury Retreats</h1>
+        <div class="image-placeholder">[ Bild: Gotland Silent Retreat ]</div>
+        <form id="retreat-interest-form" action="thank-you.html" method="GET">
+            <h3>Intresseanmälan Retreat</h3>
+            <div class="form-group">
+                <label for="retreat-name">Namn</label>
+                <input type="text" id="retreat-name" name="name" required placeholder="Johan Ek">
+            </div>
+            <div class="form-group">
+                <label for="retreat-email">E-post</label>
+                <input type="email" id="retreat-email" name="email" required placeholder="johan@ek.se">
+            </div>
+            <button type="submit" class="btn" style="width: 100%;">Få Fullständigt Program</button>
+        </form>
+    </main>
+    <footer><p>&copy; 2026 SOMA Yoga Studio.</p></footer>
+    <script src="script.js"></script>
+</body>
+</html>
